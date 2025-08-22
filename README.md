@@ -1,12 +1,14 @@
 # Sunnyglade Ratters: Coin Calculator v0.1
-A World of Warcraft RolePlaying Guild - this is a calculator to determine how much each in character member is paid per job done.
+Sunnyglade Ratters is a roleplaying group - this is a calculator to determine how much each in character member is paid per job done.
 
-Version 0.1 is a FrontEnd only version, much of the data is hardcoded
+## Version 0.1
+INPROGRESS:
+- create Frontend pages and forms
 
-Roadmap version 0.2
-- implement a BE with local data storage
-Roadmap version 0.3
-- migrate to a cloud DB
+TODO:
+- setup Backend and API
+- add basic authentication
+- improve styling
 
 ## Contents
 - [Installation](#installation)
@@ -17,8 +19,12 @@ Roadmap version 0.3
 ## Installation
 
 Built with 
-- React
-- React Router v7
+- React v19
+- Node v24
+- Vite
+
+Packages
+- react-router as a library for routing only in v0.1
 
 To install this project, run
 ```bash
@@ -27,7 +33,14 @@ npm install
 
 ## Developing
 
-## Usage
+## Running
 
-In v0.1 most permenant data is hardcoded for use.
-The results of the calculator should be copied to your own file as values are only stored in LocalStorage of your browser.
+To run locally for development
+
+```bash
+npm run dev
+```
+
+There is currently no production version and no backend/API
+
+
